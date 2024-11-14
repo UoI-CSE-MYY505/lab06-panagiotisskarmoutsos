@@ -8,6 +8,7 @@ data: .word 1
     li   x9,  -1
 
 loop:
+    j out
 l1: addi x10, x10, 4 
 l2: beq  x10, x11, out 
 l3: lw   x5,  0(x10)
